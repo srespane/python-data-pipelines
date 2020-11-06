@@ -3,6 +3,7 @@
 ## Solution
 - **from_mysql_to_bq_pandas.py** 
   - Executable python file This file contains the code for executing the extraction of a query from MySQL to BigQuery using the local file system as temporary storage in Parquet + Snappy format
+  - The script will infer the schema from data directly and create a new table with data. If table name exists it will overwite its structure and content.
   - In order to execute this file we need to use python and pass as argument the path to the configuration file.
 - **config.yaml.template**
   - Template configuration file
