@@ -1,0 +1,12 @@
+query-file: /path/to/query/file/example.sql
+source-db:
+    host: 1.2.3.4
+    port: 3306
+    db: somedb
+    user: someuser
+    pass: somepass
+target-table:
+    project: some-bq-project
+    dataset: some-bq-dataset
+    table: some-bq-table
+temp-storage: /path/to/target/file.parquet
